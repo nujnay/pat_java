@@ -1,0 +1,5 @@
+git add  ./
+git commit -m master
+git push
+d:
+cd D:\Users\Administrator\workspace\PAT
