@@ -13,7 +13,7 @@ public class Main {
 		for (int i = 0; i < number.length(); i++) {
 			sum += number.charAt(i) - '0';
 		}
-		Stack<String> stack = new Stack<String>();// 后进先出 push方法插入stack的顶端
+		Stack<String> stack = new Stack<String>();//push 推进到顶部
 													// add方法是插入在vector的底端
 		do {
 			int unit = sum % 10;
@@ -51,7 +51,7 @@ public class Main {
 			}
 			sum = sum / 10;
 		} while (sum != 0);
-		System.out.print(stack.pop());
+		System.out.print(stack.pop());//移除顶部
 		while (!stack.isEmpty()) {
 			System.out.print(" " + stack.pop());
 		}
