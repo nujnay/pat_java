@@ -18,11 +18,10 @@ public class Main {
 		Stack<String> stack = new Stack<String>();
 
 		for (int i = out.length() - 1; i > -1; i--) {
-			if ((out.length() - 1 - i) % 3 == 0
-					&& out.length() - 1 - i != 0) {
-				if(i==0&&out.charAt(i)=='-'){
+			if ((out.length() - 1 - i) % 3 == 0 && out.length() - 1 - i != 0) {
+				if (i == 0 && out.charAt(i) == '-') {
 					stack.push(out.charAt(i) + "");
-				}else{
+				} else {
 					stack.push(out.charAt(i) + ",");
 				}
 			} else {
