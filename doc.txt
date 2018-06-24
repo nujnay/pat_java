@@ -8,3 +8,4 @@ cd D:\Users\Administrator\workspace\PAT
 eclipse格式化 ctrl+shift+f
 eclipse导包      ctrl+shift+m
 				ctrl+shift+o
+Alt+/ 补全
