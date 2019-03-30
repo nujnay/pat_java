@@ -6,7 +6,8 @@ import java.util.Stack;
 public class Main {
 
 	/*
-	 * translation A+B 格式化 输出A+B的和用欧豪 除非少于四位
+	 * Calculate a+b and output the sum in standard format -- that is, the digits must be separated into groups of three by commas (unless there are less than four digits).
+	 *
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

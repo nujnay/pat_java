@@ -5,16 +5,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
-	/*
-	 * 紧急情况 作为城市的救援队的队长 你被给 与一张这个城市特殊的地图
-	 * 
-	 * 输入第一行包括四个正整数
-	 * 
-	 * 城市数量n 道路数量m 需要保存到的城市 respectively
-	 *  两个城市相连道路的长度
-	 * 
-	 * output c1 到c2 之间最短的路径长度 最大的救护车数量
-	 */
+
 
 	public static ArrayList<Line> lines;
 	public static int c1;
